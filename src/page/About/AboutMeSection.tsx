@@ -4,7 +4,7 @@ function AboutMeSection() {
       <section className="flex md:flex-row flex-col justify-between min-h-[130vh] w-full py-10 mb-10 lg:px-24 md:px-5 px-2 gap-16 items-center" style={{ "scrollSnapAlign": "end" }}>
         <div
           className="w-2/5 md:block hidden  h-[500px] border-4 rounded-2xl border-dashed border-sky-300"
-          style={{ backgroundImage: `url("./public/image/HeroSections/me1.jpg")`, backgroundSize: "cover" }}
+          style={{ backgroundImage: `url("./image/HeroSections/me1.jpg")`, backgroundSize: "cover" }}
         >
           .
         </div>

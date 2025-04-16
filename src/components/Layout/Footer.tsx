@@ -6,7 +6,7 @@ import {
   
   const Footer = () => {
     return (
-      <footer className="bg-sky-300 text-white py-12 px-6 md:px-20">
+      <footer className="bg-slate-300 dark:bg-slate-700 text-slate-700 dark:text-white py-12 px-6 md:px-20">
         <div className="grid md:grid-cols-5 gap-10">
   
           {/* Get in Touch */}

@@ -20,7 +20,7 @@ const HeroSection = () => {
       </div>
 
       <div data-aos="zoom-in" data-aos-duration="3000" className="w-2/3 md:min-w-96 min-w-60 flex justify-center items-center relative overflow-hidden ">
-        <img src="/public/image/HeroSections/me.png" alt="" className="w-[90%] " />
+        <img src="/image/HeroSections/me.png" alt="" className="w-[90%] " />
       </div>
 
     </div>
