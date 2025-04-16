@@ -4,7 +4,7 @@ import { themeAction } from "../../../redux/Action/ThemeAction";
 import { useEffect } from "react";
 
 function ToggleTheme({ NavToggle }: {NavToggle: () => boolean}) {
-  const isDark = useSelector((state) => state.isDark);
+  const isDark = useSelector((state: {isDark: boolean}) => state.isDark);
   const dispatch = useDispatch();
 
   useEffect(() => {

@@ -5,7 +5,6 @@ import Contact from "../page/Contact/Contact";
 import Project from "../page/Project/";
 
 import ScrollToTop from "./ScrollTop";
-import ScrollToId from "./ScrollId";
 
 function Routing() {
   return (
