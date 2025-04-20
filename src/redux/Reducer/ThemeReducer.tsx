@@ -1,6 +1,6 @@
 const getInitialTheme = () => {
     const storedTheme = localStorage.getItem("isDark");
-    return storedTheme ? JSON.parse(storedTheme) : false;
+    return storedTheme ? JSON.parse(storedTheme) : true;
 };
 
 const initialTheme = {

@@ -31,6 +31,7 @@ function LoadingScreen({ onFinished }: Props) {
       className={`fixed inset-0 flex z-[999] transition-all duration-1000 ${
         isExiting ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
+
     >
       {/* Bagian kiri */}
       <div
